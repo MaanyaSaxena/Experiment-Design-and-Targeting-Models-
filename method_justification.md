@@ -15,4 +15,3 @@
 | KNN | Distance-based comparison | Scaled features; sensible k; distance meaningful | PCA / feature selection; limited by high-dimensional one-hot space and slow prediction |
 | Gradient boosting | Captures nonlinearity and interactions | Enough data; tuned regularisation | Stronger regularisation, simpler model |
 | Paired bootstrap on differences | Test whether models differ, not eyeball AUC | Same rows scored by both models | Repeated CV with corrected t-test; nested CV |
-| Dropping `duration` | Leakage: known only after the call | n/a | n/a |
